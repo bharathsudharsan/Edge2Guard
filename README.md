@@ -4,9 +4,9 @@
 
 **Dataset_wrangling.ipynb:** Loads the N-BaIoT dataset and presents information such as the data dimension, individual device data count and feature information, memory consumed by each class of data with its range index, and data profile of each malware. It also checks for any null values and combines all data into one CSV file. 
 
-**Exploratory_data_analysis.ipynb:**
+**Exploratory_data_analysis.ipynb:** Here, we used the PCA dimensionality reduction method to mathematically reduce the 115 features into 2 features and visualize them by making 2D and 3D scatter plots, using which we explore the patterns and find out trends between the malicious and benign traffic data.
 
-**Data_preprocessing_and_E2G_model_training.ipynb:**
+**Data_preprocessing_and_E2G_model_training.ipynb:** We pre-process the data to group it into four categories. We follow a 70-30 Training-testing split and used all the 115 features since malware can attack the device at different time intervals. We use this pre-processed data and train multiple supervised learning and One-class learning models, and evaluate it using Accuracy, F1 score, Kappa, and Matthews Correlation Coefficient (MCC) metrics.
 
 **Benign/Gafgyt/Mirai_data_profile.html:**
 
