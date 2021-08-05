@@ -1,8 +1,8 @@
-# Botnet Attacks Detecting for IoT Devices
+# Edge2Guard: Botnet Attacks Detection on IoT Devices
 
 ## Overview
 
-Edge2Guard (E2G) enables IoT devices to instantly detect attacks without depending on networks (standalone) or any external protection mechanisms (offline). Due to the resource-friendly design of E2G models, they can execute on MCU-based tiny devices, without imposing computational pressure and also without disturbing device routine.
+Edge2Guard (E2G) enables IoT devices to instantly detect attacks without depending on networks (standalone) or any external protection mechanisms. Due to the resource-friendly design of E2G models, they can execute on MCU-based tiny devices, without imposing computational pressure, also without disturbing device routine.
 
 Link to paper: [https://ieeexplore.ieee.org/document/9431086](https://ieeexplore.ieee.org/document/9431086)
 
@@ -15,6 +15,8 @@ In the following, we describe each file in this directory:
 **Data_preprocessing_and_E2G_model_training.ipynb:** We pre-process the data to group it into four categories. We follow a 70-30 Training-testing split and used all the 115 features. We use this pre-processed data and train multiple supervised learning and One-class learning models, and evaluate it using Accuracy, F1 score, Kappa, and Matthews Correlation Coefficient (MCC) metrics.
 
 **Benign/Gafgyt/Mirai_data_profile.html:** Here, we generate and present the profile reports from the DataFrame of the Benign/Gafgyt/Mirai traffic data to facilitate exploratory data analysis. In the report's *Overview* section, the high-level data statistics starting from the number of variables until the average record size in memory is available. The next variables section contains multiple subsections such as *Statistics, Histograms, Common values*, and *Extreme values* to describe each of the available 117 variables.
+
+**Note:** Download the Benign/Gafgyt/Mirai_data_profile.html file, then open via browser (cannot view directly from the repo). The file content sample in below image (scroll after opening to explore more provided analysis).
 
 **E2G_model_training_and_evaluation_results.docx:** This file contains the detailed evaluation results (confusion Matrix, precision, recall, f1-score, support, accuracy, macro avg, weighted avg) of all the types of E2G attack detecting classifiers trained using the preprocessed data along with the feature importance for each type of model. 
 
