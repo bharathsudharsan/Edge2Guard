@@ -24,7 +24,9 @@ Link to paper: [https://ieeexplore.ieee.org/document/9431086](https://ieeexplore
 
 ## Evaluation Results of Models
 
-**E2G_model_training_and_evaluation_results.docx:** This file contains the detailed evaluation results (confusion Matrix, precision, recall, f1-score, support, accuracy, macro avg, weighted avg) of all the types of E2G attack detecting classifiers trained using the preprocessed data along with the feature importance for each type of model. 
+**E2G_model_training_and_evaluation_results.docx:** This file contains the detailed evaluation results (confusion Matrix, precision, recall, F1-score, support, accuracy, macro avg, weighted avg) of all the types of E2G attack detecting classifiers trained using the preprocessed data along with the feature importance for each type of model. 
+
+The results are breifly presented in below Tables
 
 **If the code is useful, please consider citing Edge2Guard paper using the BibTex entry below.**
 
