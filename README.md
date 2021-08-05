@@ -18,8 +18,7 @@ In the following, we describe each file in this directory:
 
 **Note:** Download the Benign/Gafgyt/Mirai_data_profile.html file, then open via browser (cannot view directly from the repo). The file content sample is shown in below image (scroll after opening .html files to explore more).
  
-![alt text]()
-
+![alt text](https://github.com/bharathsudharsan/Edge2Guard/blob/main/Mirai_report_html_file_sample.PNG)
 
 **E2G_model_training_and_evaluation_results.docx:** This file contains the detailed evaluation results (confusion Matrix, precision, recall, f1-score, support, accuracy, macro avg, weighted avg) of all the types of E2G attack detecting classifiers trained using the preprocessed data along with the feature importance for each type of model. 
 
