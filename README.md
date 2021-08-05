@@ -16,7 +16,10 @@ In the following, we describe each file in this directory:
 
 **Benign/Gafgyt/Mirai_data_profile.html:** Here, we generate and present the profile reports from the DataFrame of the Benign/Gafgyt/Mirai traffic data to facilitate exploratory data analysis. In the report's *Overview* section, the high-level data statistics starting from the number of variables until the average record size in memory is available. The next variables section contains multiple subsections such as *Statistics, Histograms, Common values*, and *Extreme values* to describe each of the available 117 variables.
 
-**Note:** Download the Benign/Gafgyt/Mirai_data_profile.html file, then open via browser (cannot view directly from the repo). The file content sample in below image (scroll after opening to explore more provided analysis).
+**Note:** Download the Benign/Gafgyt/Mirai_data_profile.html file, then open via browser (cannot view directly from the repo). The file content sample is shown in below image (scroll after opening .html files to explore more).
+ 
+![alt text]()
+
 
 **E2G_model_training_and_evaluation_results.docx:** This file contains the detailed evaluation results (confusion Matrix, precision, recall, f1-score, support, accuracy, macro avg, weighted avg) of all the types of E2G attack detecting classifiers trained using the preprocessed data along with the feature importance for each type of model. 
 
